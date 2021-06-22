@@ -17,3 +17,9 @@ for decoding, file name for output is 'file_name' with addition _LZW, _LZMW, or 
 this program IS NOT VERY EFFICIENT, i warn you... 
 
 currently, i have problem with LZW, you may notice some weird output from decoding LZW.  
+
+test.txt is input example.
+test.LZAP, test.LZMW, and test.LZW is output of compressed example.
+test_LZAP.txt, test_LZMW.txt, and test_LZW.txt is output of decompressed file from test.LZAP, test.LZMW, and test.LZW.
+
+lasty, sorry for bad english and messy program
