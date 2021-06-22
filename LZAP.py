@@ -29,6 +29,7 @@ def encode(array):
         prev_match=match
     return out
 
+
 #preparing output (int) to chunks of bytes
 def output_to_bytes(array):
     i=0
