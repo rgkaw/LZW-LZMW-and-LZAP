@@ -22,6 +22,8 @@ def encode(array):
             match=match[:-1]
         out.append(dictionary[match])
     return out
+
+
 def output_to_bytes(array):
     i=0
     bits=0
