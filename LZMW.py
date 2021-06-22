@@ -71,6 +71,7 @@ def get_string(idx):
             a=i
     return a
 
+
 def decode(array):
     out=b''
     match=b''
