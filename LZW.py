@@ -177,13 +177,16 @@ while True:
     dictionary={bytes([i]):i for i in range(256)}
     try:
         choice=int(input("1. compress\n2. decompress\n0. exit\n\tyour choice:"))
-        if choice==1:
-            compress()
-        elif choice==2:
-            decompress()
-        elif choice==0:
-            break
-        else:
-            print("invalid input")
+        try:
+            if choice==1:
+                compress()
+            elif choice==2:
+                decompress()
+            elif choice==0:
+                break
+            else:
+                print("invalid input")
+        except:
+            print('cannot find file...')
     except:
         print("invalid input (not integer)")
