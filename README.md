@@ -22,7 +22,7 @@ test.txt is input example.
 test.LZAP, test.LZMW, and test.LZW is output of compressed example.
 test_LZAP.txt, test_LZMW.txt, and test_LZW.txt is output of decompressed file from test.LZAP, test.LZMW, and test.LZW.
 
-lasty, sorry for bad english and messy program
+lastly, sorry for bad english and messy program
 
 
 text generated from: lipsum.com
